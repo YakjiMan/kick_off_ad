@@ -1,0 +1,34 @@
+@charset "EUC-KR";
+.main
+{
+	margin-top:20px;
+	background-color:#1b1b1b;	
+	padding:40px 0 40px 0;
+}
+
+.video_frame
+{
+	width:1000px;
+	margin:25px auto 40px auto;
+}
+.info
+{
+	margin-top:30px;
+	font-size:35pt;
+	font-weight:600;
+}
+.text
+{
+	font-size:20pt;
+	font-weight:450;
+	text-decoration:none;
+	color:#232B99;
+	
+}
+.menu a:nth-child(2)
+{
+	font-weight:bold;
+	color:white;
+	border-bottom:2px solid white;
+	padding-bottom:19px;
+}

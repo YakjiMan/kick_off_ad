@@ -1,0 +1,105 @@
+@charset "EUC-KR";
+.main
+{
+	margin-top:20px;
+	background-color:#1b1b1b;	
+}
+.schedule_frame
+{
+	width:1000px;
+	margin:25px auto 15px auto;
+	box-sizing:border-box;
+}
+.scheduledate
+{
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+}
+.chams, .PL, .La, .SA, .bn
+{
+	margin-top:70px;
+	text-align:center;
+}
+.chamstbl, .PLtbl, .Latbl, .SAtbl, .bntbl
+{	
+	border:1px solid black;
+	margin:10px auto 0 auto;
+	width:700px;
+}	
+.all img
+{
+	width:17px;
+	height:17px;
+}
+.chamstbl th
+{
+	background-color:#a94d4d;
+}
+.PLtbl th
+{
+	background-color:#a94d4d;
+}
+.Latbl th
+{
+	background-color:#a94d4d;
+}
+.bntbl th
+{
+	background-color:#a94d4d;
+}
+.SAtbl th
+{
+	background-color:#a94d4d;
+}
+
+
+.mainname
+{
+	font-size:30px;
+	font-weight:bold;
+	padding-right:400px;
+	text-align:left;
+}
+a
+{
+	color: inherit;
+  	text-decoration: none;
+}
+.info
+{
+	margin-top: 100px;
+	text-align:left;
+	color:#6B7575;
+}
+.all
+{
+	width:700px;
+	margin:0 auto 0 auto;
+}
+.info_frame
+{
+	width:1000px;
+	margin:0 auto 0 auto;
+}
+.menu a:nth-child(4)
+{
+	font-weight:bold;
+	color:white;
+	border-bottom:2px solid white;
+	padding-bottom:19px;
+}
+.home
+{
+	text-align:right;
+	width:40%
+}
+.away
+{
+	text-align:left;
+	width:40%
+}
+.matchname
+{
+	width:85%;
+}

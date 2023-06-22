@@ -1,0 +1,87 @@
+@charset "EUC-KR";
+.main
+{
+	margin-top:20px;
+	background-color:#1b1b1b;	
+	padding-bottom:100px;
+	padding-top:2px;
+}
+.userimg2
+{
+	width:130px;
+	height:130px;
+}
+.profileimg
+{
+	margin-top:150px;
+	text-align:center;
+}
+.profileimg input
+{
+	width:100px;
+	font-size:20px;
+	height:30px;
+	font-weight:bold;
+	text-align:center;
+}
+.profileimg p 
+{
+	font-size:30px;
+}
+.profileframe
+{
+	margin:0 auto 0 auto;
+	width:300px;
+	height:480px;
+	border:1px solid #141414;
+	background-color:#141414;
+	border-radius:30px;
+}
+.profiletext
+{
+	margin-top:40px;
+	text-align:left;
+	background-color:#222222;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+	height:420px;
+	padding:10px 20px 0 20px;
+}
+.profiletext p
+{
+	font-weight:bold;
+	font-size:18px;
+}
+.profiletext input
+{
+	width:252px;
+	height:30px;
+	border-radius:5px;
+	border:1px solid black;
+	background-color:#353535;
+	color:#F2F2F2;
+}
+.pwmodifyok
+{
+	text-align:center;
+}
+.pwmodifyok input
+{
+	margin-top: 20px;
+	width:252px;
+	height:40px;
+	border-radius:5px;
+	border:1px solid white;
+	background-color:black;
+	color:white;
+}
+.button
+{
+	cursor:pointer;
+}
+.span_msg
+{
+	margin:5px 0 15px 10px;
+	font-size:10pt;
+	color:#B17C7C;
+}

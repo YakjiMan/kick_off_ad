@@ -1,0 +1,251 @@
+@charset "EUC-KR";
+.main
+{
+	margin-top:20px;
+	background-color:#1b1b1b;	
+}
+.board_frame
+{
+	width:1000px;
+	margin:25px auto 15px auto;
+	box-sizing:border-box;
+}
+.top_level_table
+{
+	width:1000px;
+    margin-left:auto; 
+	margin-right:auto;
+}
+
+.column_table
+{
+	width:100%;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+.column_table tr:not(:first-child):not(:nth-child(5)):hover 
+{
+	background-color:#5e5e5e;
+}
+
+
+.select_table
+{
+	width:100%;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+.decide_table
+{
+	margin-left:85%;
+}
+
+.bottom_select_table2
+{
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+.board_title        
+{
+	font-weight:bold; 
+	font-size:30pt; 
+	text-decoration:none;
+	padding:30px 0 30px 0;
+}
+
+.horizon
+{
+	width:100%;
+}
+
+.column
+{
+	background-color:#353535;
+	text-align:center;
+	font-weight:bold;
+}
+
+.board_search
+{
+	border-radius:8px;
+	padding: 5px 0 5px 0;
+}
+
+.sort
+{
+	display:inline;
+	font-size:13pt;
+	font-weight:bold;
+	cursor:pointer;
+	color:#616161;
+	padding:15px;
+}
+.sort:hover, .sort_on
+{
+	display:inline;
+	font-size:13pt;
+	font-weight:bold;
+	padding:15px;
+	color:white;
+	cursor:pointer;
+}
+
+.write_button
+{
+	float:right;
+	margin-left:70px;
+	padding: 5px 0 5px 0; 
+	border-radius:8px;
+	border: 1px solid #c4c4c4;
+	font-weight:bold;
+	width:60px;
+	background-color: black;
+	color:white;
+	cursor:pointer;
+}
+
+.list_button
+{
+	margin-left:4px;
+	padding: 5px 0 5px 0; 
+	border-radius:8px;
+	border: 1px solid #c4c4c4;
+	font-weight:bold;
+	width:45px;
+	background-color: black;
+	color:white;
+}
+
+.post_search
+{
+	display:table;
+	margin:auto;
+	height:50px;
+	
+}
+.search_button
+{
+	width:80px;
+	height:30px;
+	cursor:pointer;
+	background-color:black;
+	color:white;
+	font-weight:650;
+	padding:1px 9px 4px 9px;
+	border:1px solid white;
+}
+.board_list
+{
+	color:#ED1C24;
+}
+
+.board_text
+{
+	text-align:center;
+}
+
+.manager_column
+{
+	text-align:center;
+}
+
+.page_number
+{
+	font-size:20px;
+	color:white	;
+	margin-left:auto; 
+	margin-right:auto;
+}
+.page
+{
+	display:table;
+	font-size:20pt;
+	font-weight:bold;
+	margin:50px auto 10px auto;
+}
+.page_off
+{
+	display:inline;
+	font-size:18pt;
+	font-weight:bold;
+	cursor:pointer;
+	color:#616161;
+	padding:15px;
+}
+.page_on, .page_off:hover
+{
+	display:inline;
+	font-size:18pt;
+	font-weight:bold;
+	padding:15px;
+	color:white;
+	cursor:pointer;
+}
+/*기현주석*/
+.menu a:nth-child(5)
+{
+	font-weight:bold;
+	color:white;
+	border-bottom:2px solid white;
+	padding-bottom:19px;
+}
+.search_text
+{
+	height:24px; 
+	font-size:12pt; 
+	margin:10px;
+}
+.keyword
+{
+	display:inline;
+	font-size:15pt;
+	font-weight:bold;
+	color:#white;
+	padding:15px;
+	margin:50px 0 0 40px;
+}
+.select
+{
+	height:30px; 
+	text-align:center;
+	color:white;
+	background-color:#353535;
+}
+.midad
+{
+	height:150px;
+	width:100%;
+	background-color:#a4a4a4;
+	margin-bottom:15px;
+}
+.midad img
+{
+	height:100%;
+	width:100%;
+}
+
+.sidead
+{
+	display:inline-block;
+	float:right;
+	padding:0px;
+	background:#FF6347;
+	margin-top:200px;
+	width:200px;
+	height:600px;
+	position:fixed;
+	z-index:100;
+}
+@media all and (min-width: 1101px) 
+{
+    .sidead 
+    {
+	    position: sticky;
+	    align-self: flex-start;
+	    top: 160px;
+	    right:150px;
+    }
+}

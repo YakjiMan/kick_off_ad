@@ -1,0 +1,17 @@
+					$.ajax({
+						type : "get",
+						url: "url주소",
+						dataType: "html",
+						success : function(data) 
+						{	
+							// 통신이 성공적으로 이루어졌을때 이 함수를 타게된다.
+						},
+						complete : function(data) 
+						{	
+							// 통신이 성공하거나 실패했어도 이 함수를 타게된다.			
+						},
+						error : function(xhr, status, error) 
+						{
+							// 통신 오류 발생시							
+						}
+					});

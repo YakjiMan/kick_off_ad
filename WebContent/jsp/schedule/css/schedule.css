@@ -1,0 +1,128 @@
+@charset "EUC-KR";
+.main
+{
+	margin-top:20px;
+	background-color:#1b1b1b;	
+	padding:40px 0 200px 0;
+}
+.schedule_frame
+{
+	width:1000px;
+	margin:25px auto 15px auto;
+	box-sizing:border-box;
+}
+.leaguemenu
+{
+	margin: 50px auto 0 auto;
+	text-align:center;
+	font-size:25px;
+	color:#616161;
+	cursor: pointer;
+}
+
+.leaguename, .leaguename2, .leaguename3, .leaguename4, .leaguename5, .leaguename6, .leaguename7, .leaguename8
+{
+	margin: 30px auto 0 auto;
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+}
+
+
+.leaguename p
+{
+	font-size:20px;
+}
+.leaguetable
+{
+	text-align:center;
+	border: 1px solid black;
+	margin: 40px auto 40px auto;
+	width:1000px;
+}
+.name
+{
+	padding-left:15px;
+	text-align:left;
+}
+
+.leaguetable img
+{
+	width:17px;
+	height:17px;
+}
+
+
+.leaguetable th
+{
+	background-color:#a94d4d;
+}
+.leaguetable th:nth-child(3)
+{
+	width:80%;
+}
+.chams_one
+{
+	background-color:#5d87c1 !important;
+}
+.chams_two
+{
+	background-color:#95c776 !important; 
+}
+.leaguetable td
+{
+	background-color:#363434
+}
+
+
+#first
+{
+	color:red;
+}
+.menu a:nth-child(4)
+{
+	font-weight:bold;
+	color:white;
+	border-bottom:2px solid white;
+	padding-bottom:19px;
+}
+
+.home
+{
+	text-align:right;
+}
+.away
+{
+	text-align:left;
+}
+#date
+{
+	background-color:#292929 !important;
+}
+.selectFrame
+{
+	margin: 0 auto 5px auto;
+	text-align:center;
+	
+}
+#selectBox
+{
+	font-weight:bold;
+	font-size: 35px;
+	width: 80px;
+	height:40px;
+	appearance:none;
+	text-align:center;
+	border-radius:10px;
+	background-color:#1b1b1b;
+	color:white;
+	border:1px solid #1b1b1b;
+}
+.selectFrame b
+{
+	font-size:40px;
+}
+.middle
+{
+	width:7%;
+}

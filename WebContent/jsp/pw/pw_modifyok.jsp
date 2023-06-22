@@ -1,0 +1,74 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ page import="kickoff.dto.*" %>
+<%@ page import="kickoff.vo.*" %>
+<%@ page import="java.util.*" %>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+		<title>수정완료</title>
+		<link href="../hfcss/header.css" rel="stylesheet" type="text/css">
+		<link href="../hfcss/footer.css" rel="stylesheet" type="text/css">
+		<link href="css/pw_modifyok.css" rel="stylesheet" type="text/css">
+		<script src="../../js/jquery-3.6.3.js"></script>
+	</head>
+	<script>
+	function DoSearch()
+	{
+		if($(".searcher").val() == "")
+		{
+			alert("검색어를 입력해주세요.")
+			return;
+		}
+		else
+		{
+			$("#top_search").submit();
+		}
+	}
+	</script>
+	<%@ include file="../include/header.jsp" %>
+<!-- main 시작 -->
+
+<%@ page import="java.io.*" %>    
+<!-- 컨텐츠 출력 되는곳 -------------------------- -->
+<%
+request.setCharacterEncoding("EUC-KR");
+
+String name   = request.getParameter("user_name");
+String id     = request.getParameter("user_id");
+String new_pw = request.getParameter("new_pw");
+String old_pw = request.getParameter("old_pw");
+
+
+UserinfoDTO dto = new UserinfoDTO();
+dto.DBOpen();
+String sql = "";
+sql  = "select user_no from userinfo ";
+sql += "where user_id='" + dto._R(id) + "' and ";
+sql += "user_name='" + dto._R(name) + "' and ";
+sql += "user_pw=md5('" + dto._R(old_pw) + "') ";
+dto.RunQuery(sql);
+if(dto.GetNext() == false)
+{
+%>
+	<script>
+		alert("기존 비밀번호가 올바르지 않습니다.")
+		window.history.back();
+	</script>
+<%
+	dto.DBClose();
+	return;
+}
+dto.DBClose();
+
+dto.UpdatePW(id, name, new_pw);
+%>
+<script>
+	alert("비밀번호가 변경되었습니다. \n 다시 로그인해주세요.");
+</script>
+<%
+response.sendRedirect("/kick_off_view/jsp/login/login.jsp");
+%>
+		<!-- main 끝 -->
+<%@ include file="../include/footer.jsp" %>

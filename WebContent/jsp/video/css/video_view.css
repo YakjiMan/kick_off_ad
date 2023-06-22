@@ -1,0 +1,261 @@
+@charset "EUC-KR";
+.main
+{
+	margin-top:20px;
+	background-color:#1b1b1b;	
+	padding:40px 0 40px 0;
+}
+.video_frame
+{
+	width:1000px;
+	margin:25px auto 15px auto;
+}
+.video_tabtitle
+{
+	height:20px;
+	font-color:black;
+	margin-bottom:10px;
+}
+.tabtitle_text
+{
+	font-weight:bold; 
+	font-size:30pt; 
+	text-decoration:none;
+}
+.tab
+{
+	display:inline-block;
+	font-weight:bold; 
+	font-size:13pt; 
+	color:#616161;
+	text-decoration:none;
+}
+.tab_on
+{
+	display:inline-block;
+	font-size:13pt;
+	font-weight:bold;
+	color:white;
+}
+.title
+{
+	font-size:25pt;
+	font-weight:bold;
+	display:inline-block;
+	height:50px;
+}
+.view
+{
+	font-size:11pt;
+	margin-right:15px;
+	text-align:right;
+	padding-right:20px;
+}
+.date
+{
+	font-size:9pt;
+	font-weight:bold;
+	color:#a4a4a4;
+	height:20px;
+}
+.source
+{
+	font-size:9pt;
+	font-weight:bold;
+	color:#a4a4a4;
+	height:20px;
+}
+.img_frame
+{
+	display:table;
+	width:600px;
+	height:400px;
+	margin:60px auto 40px auto;
+}
+.img
+{
+	width:100%;
+	height:100%;
+}
+.writer
+{
+	font-size:14pt;
+	font-weight:bold;
+	margin-top:50px;
+	margin-bottom:120px;
+}
+.emo_frame
+{
+	display:table;
+	margin:auto;
+	margin-bottom:50px;
+}
+.good, .bad
+{
+	width:80px;
+	display:inline-block;
+	margin:0 50px 0 50px;
+}
+img
+{
+	width:100%;
+	height:100%;
+}
+.nav_list, .nav_prev, .nav_next
+{
+	display:inline-block;
+	font-weight:bold; 
+	font-size:13pt; 
+	text-decoration:none;
+	margin-right:15px;
+}
+.reply
+{
+	margin-left:70px; 
+	margin-top:20px;
+	font-size:11pt;
+	display:table;
+	align:left;
+}
+.reply_textwrite
+{
+	width:500px;
+	height:90px;
+}
+.reply_button
+{
+	width:80px;
+	height:90px;
+	background-color:black;
+	color:white;
+	font-weight:650;
+	border-radius:10px;
+	padding:8px;
+	border:1px solid white;
+	cursor:pointer;
+}
+.video_tab
+{
+	margin-top:50px;
+	margin-bottom:30px;
+}
+.emo_name
+{
+	text-align:center;
+}
+.emo_number
+{
+	height:50px;
+	text-align:center;
+}
+.reply_count
+{
+	display:inline;
+	float:left;
+	padding:40px;
+}
+.modify_button, .delete_button
+{
+	float:right;
+	width:100px; 
+	margin:40px 0 0 20px;
+	background-color:black;
+	color:white;
+	font-weight:650;
+	border-radius:10px;
+	text-align:center;
+	text-decoration:none;
+	border:1px solid white;
+}
+.line
+{
+	color:#a4a4a4;
+	width:95%;
+	margin:20px 0 20px 0;
+}
+.reply table
+{
+	width :800px;
+}
+.reply_name
+{
+	width:500px;
+	font-weight:700;
+	font-size:10pt;
+}
+.reply_text
+{
+	display:inline-block;
+	word-break:break-all;
+}
+.reply_modify
+{
+	align:right;
+	text-align:right;
+	width:8%;
+}
+.reply_delete
+{
+	align:right;
+	rowspan:2;
+	text-align:right;
+}
+.reply_date
+{
+	text-align:right;
+}
+.rmodify_button, .rdelete_button
+{
+	background-color:black;
+	color:white;
+	font-weight:650;
+	border:1px solid white;
+	cursor:pointer;
+}
+.rmodify_text
+{
+	width:500px;
+	height:30px;
+}
+.menu a:nth-child(2)
+{
+	font-weight:bold;
+	color:white;
+	border-bottom:2px solid white;
+	padding-bottom:19px;
+}
+.like, .hate
+{
+	cursor:pointer;
+}
+.category
+{
+	font-size:20pt;
+	font-weight:600;
+	margin:15px;
+	text-align:right;
+	padding-right:30px;
+}
+
+.sidead
+{
+	display:inline-block;
+	float:right;
+	padding:0px;
+	background:#FF6347;
+	margin-top:200px;
+	width:200px;
+	height:600px;
+	position:fixed;
+	z-index:100;
+}
+@media all and (min-width: 1101px) 
+{
+    .sidead 
+    {
+	    position: sticky;
+	    align-self: flex-start;
+	    top: 160px;
+	    right:150px;
+    }
+}

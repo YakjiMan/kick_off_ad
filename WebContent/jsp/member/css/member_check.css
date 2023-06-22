@@ -1,0 +1,75 @@
+@charset "EUC-KR";
+.main
+{
+	margin-top:20px;
+	background-color:#1b1b1b;	
+	height:1200px;
+}
+body
+{
+	width:100%;
+	height:1200px;
+}
+.sitename
+{
+	text-align:center;
+	font-size:60px;
+	padding-top:150px;
+}
+.loginbackground
+{
+	width:600px;
+	height:500px;
+	background-color:#222222;
+	border-radius:100px;
+	z-index:1;
+	margin-left:auto;
+	margin-right:auto; 
+	margin-top:50px;
+}
+.login
+{
+	padding-top	:100px;
+}
+.logintbl
+{
+	width:350px;
+	height:250px;
+	margin-left:auto;
+	margin-right:auto; 
+	font-weight:bold;
+	
+}
+.userid, .userpw
+{
+	width:91%; 
+	padding: 10px 0 10px 10px; 
+	border-radius:8px;
+	border: 1px solid black;
+	margin-left:8px;
+	font-weight:bold;
+	background-color:#353535;
+	color:white;
+}
+.button
+{
+	background-color: black;
+	color:white;
+	width:95%;
+	padding: 10px 0 10px 0;
+	border-radius:8px;
+	border: 1px solid #c4c4c4;
+	margin-left:8px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.tap
+{
+	font-size:12px;
+	margin-left:auto;
+	margin-right:auto;
+}
+a{
+	text-decoration:none;
+	color: inherit;
+}

@@ -1,0 +1,56 @@
+@charset "EUC-KR";
+.main
+{
+	margin-top:20px;
+	background-color:#1b1b1b;
+	padding-bottom:200px;	
+	padding-top:2px;
+}
+.userimg2
+{
+	width:130px;
+	height:130px;
+}
+.profileimg
+{
+	margin-top:150px;
+	text-align:center;
+}
+.profileimg p 
+{
+	font-size:30px;
+}
+.profileframe
+{
+	margin:0 auto 0 auto;
+	width:300px;
+	height:400px;
+	border:1px solid #141414;
+	background-color:#141414;
+	border-radius:30px;
+}
+.profiletext
+{
+	margin-top:40px;
+	text-align:left;
+	background-color:#222222;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+	height:340px;
+	padding:20px 20px 0 20px;
+}
+.profiletext hr
+{
+	border:0;
+	background-color:#C4C4C4;
+	height:2px;
+	width:260px;
+}
+.profiletext a
+{
+	margin: 10px 0 10px 0;
+}
+.gt
+{
+	float:right;
+}

@@ -1,0 +1,35 @@
+@charset "EUC-KR";
+.main
+{
+	margin-top:20px;
+	background-color:#1b1b1b;	
+	padding: 20px 0 20px 0;
+}
+.news_frame
+{
+	width:1000px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:40px;
+}
+.info
+{
+	margin-top:30px;
+	font-size:35pt;
+	font-weight:600;
+}
+.text
+{
+	font-size:20pt;
+	font-weight:450;
+	text-decoration:none;
+	color:#232B99;
+	margin:20px 0 40px 0;
+}
+.menu a:nth-child(1)
+{
+	font-weight:bold;
+	color:white;
+	border-bottom:2px solid white;
+	padding-bottom:19px;
+}

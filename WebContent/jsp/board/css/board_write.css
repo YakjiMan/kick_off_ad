@@ -1,0 +1,254 @@
+@charset "EUC-KR";
+.main
+{
+	margin-top:20px;
+	background-color:#1b1b1b;	
+}
+
+.file_button
+{
+	display:inline-block;
+	margin-left:0px;
+	color:white;
+	font-size:13pt;
+	font-weight:600;
+	cursor:pointer;
+	border:1px solid white;
+	border-radius:8px;
+	background-color:black;
+	padding:0 5px 0 5px;
+	height:35px;
+}
+
+.top_level_table
+{
+	width:1000px;
+	margin-top:30px;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+.small_table
+{
+	width:800px;
+	margin:auto;
+}
+
+.title_write_table
+{
+	width:800px;
+}
+.title_write_table td:first-child
+{
+	font-size:20pt;
+}
+
+.main_title_table
+{
+	width:100%;
+}
+
+.small_table1
+{
+	width:100%;
+}
+
+.division
+{
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+
+.attach_input
+{
+	width:80px;
+	height:40px;
+	margin-left:4px;
+	padding: 5px 0 5px 0; 
+	border-radius:8px;
+	border: 1px solid #c4c4c4;
+	background-color: #353535;
+	color:white;
+	font-weight:bold;
+}
+
+.attach_image
+{
+	width:15px; 
+	height:15px; 
+	
+}
+
+.attach_table
+{
+	align:left; 
+	width:350px; 
+	height:170px; 
+	background-color:#D9D9D9;
+	margin-top:5px;
+}
+
+.writer_name_table_data
+{
+	margin-right:100%;
+}
+
+.regist_calcel_table_data
+{
+	 width:90%;
+	 margin-left:100%px;
+}
+
+.board_title        
+{
+		font-weight:bold; 
+	font-size:30pt; 
+	text-decoration:none;
+}
+
+
+.sort
+{
+	margin-left:4px;
+	padding: 5px 0 5px 0; 
+	border-radius:8px;
+	border: 1px solid black;
+	font-weight:bold;
+	width:70px;
+}
+
+.top_sort
+{
+	margin-left:4px;
+	padding: 5px 0 5px 0; 
+	border-radius:8px;
+	border: 1px solid #c4c4c4;
+	background-color: #353535;
+	color:white;
+	font-weight:bold;
+	width:70px;
+}
+
+.title_write_box
+{
+	border-radius:8px;
+	font-size:15px;
+	border: 1px solid black;
+	width:500px;
+	height:30px;
+}
+
+.attach_down_table
+{
+	height:50px;
+}
+
+.attach_table_data
+{
+	margin-right:100px;
+}
+
+.attach_image_table
+{
+	margin-left:auto; 
+	margin-right:auto;
+	border-radius:8px;
+	border: 1px solid white;
+	background-color:white;
+	width:200px;
+	margin-bottom:5px;
+}
+
+.decide_table
+{
+	margin-left:65%;
+}
+
+.horizon
+{
+	width:100%;
+}
+
+.id_line
+{
+	font-size:12pt;
+	font-weight:bold;
+}
+
+.registration_button
+{
+	display:inline-block;
+	border:1px solid white;
+	border-radius:8px;
+	background-color:black;
+	margin-left:500px;
+	margin-right:30px;
+	margin-top:15px;
+	cursor:pointer;
+	width:70px;
+	text-align:center;
+}
+
+.delete_button
+{
+	margin-left:4px;
+	padding: 5px 0 5px 0; 
+	border-radius:8px;
+	font-weight:bold;
+	width:45px;
+	border: 1px solid white;
+	background-color: #353535;
+	color:white;
+}
+.attach_button
+{
+	margin-left:4px;
+	padding: 5px 0 5px 0; 
+	border-radius:8px;
+	font-weight:bold;
+	width:45px;
+	border: 1px solid white;
+	background-color: #353535;
+	color:white;
+}
+
+.cancel_button
+{
+	display:inline-block;
+	cursor:pointer;
+	border:1px solid white;
+	border-radius:8px;
+	background-color:black;
+	width:70px;
+	text-align:center;
+	margin:0;
+}
+
+
+.file_choice
+{
+	width:80px;
+	margin-left:4px;
+	padding: 5px 0 5px 0; 
+	border-radius:8px;
+	font-weight:bold;
+	border: 1px solid white;
+	background-color: #353535;
+	color:white;
+}
+/*기현수정*/
+.note-editable
+{
+	background-color:white;
+}
+.menu a:nth-child(5)
+{
+	font-weight:bold;
+	color:white;
+	border-bottom:2px solid white;
+	padding-bottom:19px;
+}
+
+/*수정끝*/
+		

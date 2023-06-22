@@ -1,0 +1,191 @@
+@charset "EUC-KR";
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+
+.main_body
+{
+	background-color:black;
+	width:1200px;
+	margin:0 auto;
+}
+
+.main_box
+{
+	width:100%;
+	margin:0 auto;
+}
+
+.main_title        
+{
+	font-weight:bold; 
+	font-size:30pt;
+	padding:30px 0 30px 0;
+	color:white;
+}
+
+.horizon
+{
+	width:100%
+}
+
+.view_table
+{
+	margin:0 auto;
+}
+
+.main_table
+{
+	margin-top:30px;
+	width:100%;
+	color:white;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	text-align:center;
+}
+
+.title_td
+{
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	text-align:center;
+	width:50px;
+	height:100px;
+}
+
+.title_td1
+{
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	text-align:center;
+	width:150px;
+}
+
+.title_td2
+{
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	text-align:center;
+}
+
+.a_tag
+{
+	color:white;
+}
+
+.main_tr
+{
+	width:100%;
+	color:white;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	text-align:center;
+}
+
+.main_td
+{
+	color:white;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	text-align:center;
+}
+
+.main_td1
+{
+	font-size:17px;
+	font-weight:bold;
+	color:white;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	text-align:center;
+}
+
+.main_td2
+{
+	padding:10px;
+	color:white;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	text-align:center;
+}
+
+.ad_registration
+{
+	margin:0 0 0 1130px;
+	text-color:black;
+}
+
+.page
+{
+	display:table;
+	font-size:20pt;
+	font-weight:bold;
+	margin:50px auto 10px auto;
+}
+.page_off
+{
+	display:inline;
+	font-size:18pt;
+	font-weight:bold;
+	cursor:pointer;
+	color:#616161;
+	padding:15px;
+}
+.page_on, .page_off:hover
+{
+	display:inline;
+	font-size:18pt;
+	font-weight:bold;
+	padding:15px;
+	color:white;
+	cursor:pointer;
+}
+
+.pop_open
+{
+	color:white;
+}
+
+.Pop
+{
+	position:fixed; 
+	left:50%;
+	margin-left: -20%;
+	margin-top: -150px;
+	height:500px;
+	top: 50%;
+	width:500px; 
+	z-index:1;
+	overflow: auto;
+	display:none;
+}
+
+.pop_td
+{
+	color:white;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	text-align:center;
+}
+
+.side_img
+{
+	width:718px;
+	height:137px;
+}
